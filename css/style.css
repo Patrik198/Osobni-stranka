@@ -1,0 +1,138 @@
+@media (min-width: 40em) {
+  /* TODO */
+}
+
+@media (min-width: 60em) {
+  /* TODO */
+}
+
+@media (min-width: 80em) {
+  /* TODO */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* TODO */
+  }
+}
+
+@media (prefers-contrast: more) {
+  /* TODO */
+}
+
+@media (prefers-reduced-motion: reduce) {
+  /* TODO */
+}
+
+@media (prefers-reduced-transparency: reduce) {
+  /* TODO */
+}
+
+@media (forced-colors: active) {
+  /* TODO */
+}
+
+table {
+  width: 100%;
+  max-width: 600px;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  font-family: sans-serif;
+}
+
+caption {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid #cccccc; 
+  padding: 0.75rem;          
+  text-align: left;
+}
+
+thead {
+  background-color: #f4f4f4; 
+}
+
+:focus-visible{
+  outline: 0.125rem solid #0044cc;
+  outline-offset: 0.125rem;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%; 
+}
+
+body {
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+  max-width: 45rem;
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #1a1a1a;          
+  background-color: #ffffff;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 0.5rem;
+}
+
+
+h1, h2, h3 {
+  line-height: 1.25;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  color: #111111;
+}
+
+a {
+  color: #0044cc;
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
+}
+
+a:hover, a:focus {
+  color: #002a80;
+  outline: 0.125rem solid #0044cc;
+  outline-offset: 0.125rem;
+}
+
+/* 4. TABULKA DOVEDNOSTÍ */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+caption {
+  font-weight: 700;
+  font-size: 1.125rem;
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+th, td {
+  border: 0.0625rem solid #595959;
+  padding: 0.75rem;
+  text-align: left;
+  overflow-wrap: break-word;
+}
+
+thead {
+  background-color: #f0f2f5;
+}
+
+
